@@ -1,5 +1,5 @@
 {
-	"name": "ds_sal",
+	"name": "AzureSql",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Azure_sql",
@@ -7,10 +7,6 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": "dbo",
-			"table": "DimUser"
-		}
+		"schema": []
 	}
 }
