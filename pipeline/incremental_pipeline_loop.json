@@ -337,7 +337,7 @@
 					{
 						"schema": "dbo",
 						"table": "DimDate",
-						"cdc_col": "updated_at",
+						"cdc_col": "date",
 						"from_date": ""
 					},
 					{
@@ -348,8 +348,8 @@
 					},
 					{
 						"schema": "dbo",
-						"table": "DimFactStream",
-						"cdc_col": "updated_at",
+						"table": "FactStream",
+						"cdc_col": "stream_timestamp",
 						"from_date": ""
 					}
 				]
